@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: FonteGlitch;
+    src: url(Glitch.otf);
+}
+
+@font-face {
+    font-family: FonteKing;
+    src: url(F25_Executive.otf);
+}
+
+@font-face {
+    font-family: FonteHigh;
+    src: url(HWYGNRRW.TTF);
+}
+
+body {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#taro {
+    margin-top: 2em;
+    height: 31em;
+    width: 17em;
+    border-radius: 3%;
+    box-shadow: 1px 1px 40px gold;
+}
+
+
+#botao {
+    margin: 5vh;
+    border: 4px ridge red;
+    border-radius: 3%;
+    background: black;
+    color: red;
+    height: 4em;
+    width: 13em;
+    font-family: FonteGlitch;
+    font-size: 1.3em;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#botao:hover {
+    border: 4px ridge crimson;
+    color: crimson;
+    box-shadow: 1px 1px 70px red;
+}
+
+#texto {
+    color: red;
+    text-align: center;
+    font: 2em FonteHigh;
+    margin: 0vh 5vw 3vh 5vw;
+}
+
+#descricao {
+    color: gold;
+    text-align: center;
+    font-family: FonteKing;
+    font-size: 1.5em;
+    margin: 3vw 10vw;
+}
+
+#final {
+    color: red;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: FonteKing;
+    cursor: pointer;
+    padding-bottom: 1vw;
+}
